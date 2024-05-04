@@ -3,13 +3,14 @@
 	padding: 0;
 }
 
-
+/*
 body{
 	width: 100%;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 .Loading{
 	width: 200px;
@@ -70,7 +71,158 @@ body{
 	to{
 		transform: rotate(-360deg);
 	}
+}*/
+
+
+
+/***************slider code**************/
+/*body{
+	width: 100%;
+	height: 100vh;
+	background: #000;
 }
 
+#testmonial{
+	width: 100%;
+	padding: 120px 0px;
+
+}
+#testmonial h1{
+	font-size: 32px;
+	margin-bottom: 64px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+}
+
+.slide-row{
+	width: 3200px;
+	display: flex;
+
+}
+.slide-col{
+	width: 800px;
+	height: 400px;
+	position: relative;
+}
+.user-img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+}
+.user-img img{
+	height: 100%;
+	border-radius: 3px;
+
+}
+.user-text{
+	background: #272c33;
+	width: 480px;
+	height: 230px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fefefe;
+	border-radius: 8px;
+	padding: 40px;
+	z-index: 5;
 
 
+}
+.user-text .content{
+	font-size: 20px;
+	line-height: 26px;
+}
+.user-text h5{
+	color: white;
+	font-size: 26px;
+	margin: 35px 0px 5px;
+}
+.container{
+	width:800px ;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+} 
+.testmonial{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.dots{
+	height: 8px;
+	width: 16px;
+	border-radius:5px;
+	background: white;
+	display: inline-block;
+	cursor: pointer;
+
+}
+.pagination{
+	position: absolute;
+	left: 50%;
+	transform: translateY(-50%);
+	bottom: -60px;
+}
+.dots:hover{
+	background: tomato;
+}
+.active{
+	width: 30px;
+}*/
+
+/****************calcuator?**************/
+
+/*body{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(to right,#80ED99,#BCFFB9);
+}
+.calcuator-body{
+	width: 400px;
+	background: white;
+	border-radius: 5px;
+	padding: 16px; 
+	margin: 100px auto;
+
+}
+.result{
+	width: 100%;
+	padding: 26px;
+	background: #dadada;
+	border: none;
+	font-size:26px ;
+
+}
+.result::focus{
+	outline: none;
+}
+.btn{
+	background: #dadada;
+	width: 88px;
+	height: 46px;
+}*/
+body{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(to right,#80ED99,#BCFFB9);
+}
+
+.main-body{
+	height: 100vh;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	padding-top: 100px;
+	position: absolute;
+	top: 0;
+}
+.cModal{
+	width: 500px;
+	margin: auto;
+}
